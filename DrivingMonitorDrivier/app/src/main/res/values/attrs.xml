@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcProgressBar">
+        <attr name="antiAlias" format="boolean" />
+        <attr name="animationDuration" format="float" />
+        <attr name="valueAccuracy" format="float" />
+        //圆弧进度条
+        <attr name="arcWidth" format="float" />
+        <attr name="arcDegree" format="float" />
+        <attr name="arcColor" format="color|reference" />
+        //刻度线
+        <attr name="scaleWidth" format="dimension|reference" />
+        <attr name="scaleInterval" format="float" />
+        <attr name="scaleColor" format="color|reference" />
+        <attr name="scaleColorBackground" format="color|reference" />
+        //文字内容
+        <attr name="hint" format="string|reference" />
+        <attr name="hintSize" format="dimension" />
+        <attr name="hintColor" format="color|reference" />
+        //数值内容
+        <attr name="value" format="float" />
+        <attr name="valueSize" format="dimension" />
+        <attr name="valueColor" format="color|reference" />
+        //单位内容
+        <attr name="unit" format="string|reference" />
+        <attr name="unitSize" format="dimension" />
+        <attr name="unitColor" format="color|reference" />
+    </declare-styleable>
+</resources>

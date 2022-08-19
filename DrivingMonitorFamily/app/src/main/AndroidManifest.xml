@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.drivingmonitor">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/picture_icon"
+        android:label="@string/appName"
+        android:roundIcon="@drawable/picture_icon"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_config"
+        android:theme="@style/PureWhiteTheme">
+
+        <activity android:name=".LoginRegisterManagement.ActivityRegister" />
+        <activity android:name=".LoginRegisterManagement.ActivityLogin" />
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="x2kWh2kblyG0x3VPr5M9ZlNpZ7bjyApI" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <activity android:name=".DrawerFunctionManagement.ActivityLocationServicePlus" />
+        <activity android:name=".LoginRegisterManagement.ActivityWelcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DrawerFunctionManagement.ActivityAccount" />
+        <activity android:name=".FamilyMemberFunction.ActivityFamilyMember" />
+        <activity android:name=".HomeFunctionManagement.ActivityHome"
+            android:launchMode="singleTask"/>
+    </application>
+
+</manifest>

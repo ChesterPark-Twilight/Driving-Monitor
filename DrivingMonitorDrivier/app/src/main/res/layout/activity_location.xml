@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrawerFunctionManagement.ActivityLocationService">
+
+    <ImageView
+        android:id="@+id/quitMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginHuge"
+        android:layout_marginTop="@dimen/marginGreat"
+        android:src="@drawable/mark_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/quit"
+        android:elevation="@dimen/suspensionHeight"/>
+
+<!--    <com.baidu.mapapi.map.MapView-->
+<!--        android:id="@+id/mapView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginBig"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="@dimen/iconHuge"
+            android:layout_height="@dimen/iconHuge"
+            android:layout_marginTop="@dimen/marginTiny"
+            android:layout_marginBottom="@dimen/marginTiny"
+            android:elevation="@dimen/suspensionHeight"
+            android:src="@drawable/picture_location"
+            app:civ_border_color="@android:color/white"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/iconBig"
+            android:layout_marginStart="@dimen/iconNormal"
+            android:layout_marginTop="@dimen/marginTiny"
+            android:layout_marginEnd="@dimen/marginTiny"
+            android:layout_marginBottom="@dimen/marginTiny"
+            android:background="@android:color/white"
+            app:cardCornerRadius="@dimen/cardRadius"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/currentLocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingStart="@dimen/paddingBig"
+                android:paddingEnd="@dimen/paddingTiny"
+                android:text="@string/locationTemp"
+                android:textColor="@color/colorTextNormal"
+                android:textSize="@dimen/textSmall" />
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/refreshLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginGreat"
+        android:layout_marginEnd="@dimen/marginHuge"
+        android:contentDescription="@string/refresh"
+        android:elevation="@dimen/suspensionHeight"
+        android:src="@drawable/mark_refresh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

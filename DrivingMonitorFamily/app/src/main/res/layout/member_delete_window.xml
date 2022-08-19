@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/shape_slide">
+
+        <TextView
+            android:id="@+id/deleteContact"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/remindBarHeight"
+            android:layout_marginStart="@dimen/marginHuge"
+            android:layout_marginTop="@dimen/marginTiny"
+            android:layout_marginEnd="@dimen/marginBig"
+            android:layout_marginBottom="@dimen/marginTiny"
+            android:text="@string/refreshMember"
+            android:textColor="@color/colorTextNormal"
+            android:textSize="@dimen/textNormal"
+            android:gravity="center"
+            android:drawableStart="@drawable/mark_delete"
+            android:drawablePadding="@dimen/paddingBig"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>

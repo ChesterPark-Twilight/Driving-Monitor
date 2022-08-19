@@ -1,0 +1,232 @@
+<resources>
+    <string name="appName">督督安全司机端</string>
+    <string name="DrivingMonitor">驾车督察</string>
+
+    <string name="deviceManagement">设备管理</string>
+    <string name="accountManagement">个人信息</string>
+
+    <string name="activityTitle">界面标题</string>
+
+    <string name="emergencyContact">紧急联系人</string>
+    <string name="healthReport">健康报告</string>
+    <string name="locationService">位置服务</string>
+
+    //登录注册词句
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="welcome">欢迎使用驾车督察</string>
+    <string name="welcomePlus">使用驾车督察\t\t\t\t开启安全旅程</string>
+    <string name="phoneNumberHint">请输入手机号</string>
+    <string name="userHint">请输入账号</string>
+    <string name="passwordHint">请输入密码</string>
+    <string name="passwordConfirmHint">请再次输入密码</string>
+    <string name="registerTip">没有账号?点击注册</string>
+    <string name="loginProtocolTip">我已阅读并同意</string>
+    <string name="userUsageProtocol">《用户使用协议》</string>
+
+    //状态词句
+    <string name="state">状态</string>
+    <string name="noCondition">状态未知</string>
+    <string name="goodCondition">状态良好</string>
+    <string name="badCondition">状态异常!!!</string>
+    <string name="normal">正常</string>
+    <string name="abnormal">异常</string>
+
+    //提示词句
+    <string name="enter">进入</string>
+    <string name="quit">退出</string>
+    <string name="delete">删除</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="refresh">刷新</string>
+    <string name="success">成功</string>
+    <string name="fail">失败</string>
+
+    <string name="noData">---</string>
+    <string name="splitLine">/</string>
+
+    <string name="goodState">请小心驾驶！</string>
+    
+    //心率词句
+    <string name="heartRate">心率</string>
+    <string name="data75">75</string>
+    <string name="unitHeartRate">次/分</string>
+
+    //异常状态词句
+    <string name="abnormalState">异常状态</string>
+    <string name="noAbnormalState">无</string>
+    <string name="makePhoneCall">接打电话</string>
+    <string name="smoke">抽烟</string>
+    <string name="drink">喝水</string>
+    
+    //空气酒精浓度词句
+    <string name="alcoholConcentration">空气酒精浓度检测</string>
+    <string name="drunkDrivingTip">空气酒精浓度超过3%将被判断为酒后驾驶</string>
+    <string name="unitAlcoholConcentration">%</string>
+    <string name="noDrunkDriving">未酒后驾驶</string>
+    <string name="DrunkDriving">酒后驾驶</string>
+
+    //体温词句
+    <string name="temperature">体温</string>
+    <string name="data36.6">36.6</string>
+    <string name="unitTemperature">摄氏度</string>
+
+    //呼吸频率词句
+    <string name="respiratoryRate">呼吸频率</string>
+    <string name="data19">19</string>
+    <string name="unitRespiratoryRate">次/分</string>
+
+    //疲劳状态词句
+    <string name="fatigueState">疲劳状态</string>
+    <string name="fatigueNormal">正常</string>
+    <string name="fatigueMild">轻度</string>
+    <string name="fatigueExcessive">过度</string>
+
+    //心律失常词句
+    <string name="rhythmState">心律状态</string>
+    <string name="rhythmNormal">正常</string>
+    <string name="rhythmAbnormal">失常</string>
+
+    //血压词句
+    <string name="bloodPressure">血压</string>
+    <string name="data120">120</string>
+    <string name="data70">70</string>
+    <string name="unitBloodPressure">mmHg</string>
+
+    //微循环词句
+    <string name="microCirculation">微循环</string>
+    <string name="data81">81</string>
+    <string name="unitMicroCirculation">%</string>
+
+    //血氧饱和度词句
+    <string name="bloodOxygen">血氧饱和度</string>
+    <string name="data99">99</string>
+    <string name="unitBloodOxygen">%</string>
+
+    //紧急联系人词句
+    <string name="addContact">添加紧急联系人</string>
+    <string name="deleteContact">删除该紧急联系人</string>
+    <string name="contactName">紧急联系人姓名</string>
+    <string name="contactNumber">联系方式</string>
+
+    //信息管理词句
+    <string name="accountHeadSculpture">头像</string>
+    <string name="accountNameInitially">行车监督管理员</string>
+    <string name="accountName">昵称</string>
+    <string name="accountSex">性别</string>
+    <string name="accountAge">年龄</string>
+    <string name="unitAge">岁</string>
+    <string name="accountDrivingAge">驾龄</string>
+    <string name="unitDrivingAge">年</string>
+    <string name="accountNumber">13548073334</string>
+    <string name="logout">退出登录</string>
+    <string name="accountNameHint">输入新昵称</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+
+    //设备管理词句
+    <string name="deviceRaspberry">树莓派</string>
+    <string name="deviceCamera">前置摄像头</string>
+    <string name="deviceSensor">酒精传感器</string>
+    <string name="deviceWatch">智能穿戴设备</string>
+    <string name="connection">已成功建立通信</string>
+    <string name="connecting">正在建立通信</string>
+    <string name="connectionDevice">成功连接</string>
+    <string name="connectingDevice">正在获取设备连接状态</string>
+    <string name="disconnection">未连接</string>
+    <string name="requestState">正在获取连接状态</string>
+
+    //地图词句
+    <string name="locationTemp">四川省成都市青白江区栖凤街</string>
+
+    <string name="bigText">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards."
+    </string>
+    <string name="rememberPassword">记住密码?</string>
+</resources>

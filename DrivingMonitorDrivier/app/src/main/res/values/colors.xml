@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorTheme">#3399FF</color>
+    <color name="colorThemeLight">#9CCAFF</color>
+
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorEditBackground">#F2F2F2</color>
+
+    <color name="colorDivider">#E2E2E2</color>
+    
+    <color name="colorTextNormal">#333333</color>
+    <color name="colorTextLight">#666666</color>
+
+    <color name="groupRed">#EE5A53</color>
+    <color name="groupOrange">#FE8751</color>
+    <color name="groupYellow">#F5CB24</color>
+    <color name="groupGreen">#9BE700</color>
+    <color name="groupCyan">#52E4AC</color>
+    <color name="groupBlue">#50D6F4</color>
+    <color name="groupDarkerBlue">#56A2FC</color>
+    <color name="groupPurple">#A46EFB</color>
+
+    <color name="stateSuccess">#66FF33</color>
+    <color name="stateFail">#FF3300</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="colorBarBackground">#E6E6E6</color>
+    <color name="colorBarProgressStart">#F7D755</color>
+    <color name="colorBarProgressEnd">#EE5A53</color>
+</resources>

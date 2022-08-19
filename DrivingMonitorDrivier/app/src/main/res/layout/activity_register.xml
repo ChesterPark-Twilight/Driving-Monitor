@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginRegisterManagement.ActivityRegister">
+
+    <ImageView
+        android:id="@+id/exitRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginNormal"
+        android:src="@drawable/mark_quit"
+        android:contentDescription="@string/quit"
+        android:fitsSystemWindows="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginNormal"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textSize="@dimen/textHuge"
+        android:textColor="@color/colorTextNormal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcomePlus"
+        android:textSize="@dimen/textNormal"
+        android:textColor="@color/colorTextNormal"
+        android:gravity="center" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginHuge"
+        android:layout_marginTop="@dimen/marginGreat"
+        android:layout_marginEnd="@dimen/marginHuge"
+        android:hint="@string/phoneNumberHint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phoneNumberRegisterEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textNormal"
+            android:singleLine="true"
+            android:inputType="phone"
+            android:maxLength="11"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginHuge"
+        android:layout_marginEnd="@dimen/marginHuge"
+        android:hint="@string/passwordHint"
+        app:passwordToggleEnabled="true" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordRegisterEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textNormal"
+            android:singleLine="true"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginHuge"
+        android:layout_marginEnd="@dimen/marginHuge"
+        android:hint="@string/passwordConfirmHint"
+        app:passwordToggleEnabled="true" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordConfirmEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textNormal"
+            android:singleLine="true"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/entranceLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginHuge"
+        android:layout_marginTop="@dimen/marginGreat"
+        android:layout_marginEnd="@dimen/marginHuge"
+        android:text="@string/register"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textNormal"
+        android:textStyle="bold"
+        android:background="@drawable/shape_button"
+        android:enabled="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginHuge"
+        android:layout_marginTop="@dimen/marginSmall"
+        android:layout_marginEnd="@dimen/marginHuge"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/registerProtocolCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loginProtocolTip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/userUsageProtocol"
+            android:textColor="@color/colorTheme"/>
+
+    </LinearLayout>
+
+</LinearLayout>
